@@ -1,73 +1,132 @@
-# React + TypeScript + Vite
+                                                      React Internship Project
+This Assignment is a React + TypeScript application built using Vite as part of a React Internship assignment.
+The project demonstrates a professional implementation of **PrimeReact DataTable** with server-side pagination and persistent row selection using live API data.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Live Demo
+👉 https://jade-panda-0603b9.netlify.app/
 
-Currently, two official plugins are available:
+ 📌 About The Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project focuses on building a scalable React data table with real-world frontend engineering practices.
 
-## React Compiler
+Main goals of this project:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Implement server-side pagination using API calls
+* Manage persistent row selection across pages
+* Avoid unnecessary data storage or prefetching
+* Follow clean React architecture using TypeScript
 
-## Expanding the ESLint configuration
+ 🧩 Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+⚛️ Frontend
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+* React.js
+* TypeScript
+* Vite
+* PrimeReact DataTable
+* Tailwind CSS
+* HTML5 & CSS3
+* JavaScript (ES6+)
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+ 🛠️ Tools
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+* Git & GitHub
+* VS Code
+* Netlify Deployment
+* ESLint
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+ ✨ Features
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+✅ Server-side pagination
+✅ PrimeReact DataTable integration
+✅ Persistent row selection logic
+✅ Custom row selection overlay panel
+✅ Responsive UI design
+✅ Optimized production build
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+ ⚙️ Core Functionality
+
+#📊 Data Table
+
+Displays artwork data from the Art Institute of Chicago API with fields:
+
+* title
+* place_of_origin
+* artist_display
+* inscriptions
+* date_start
+* date_end
+
+ 🔁 Server-Side Pagination
+
+* Data fetched page-by-page from API
+* No bulk fetching
+* API call on every page change
+
+☑️ Persistent Selection
+
+* Selected rows remain selected when navigating pages
+* Only row IDs are stored
+* No prefetching of other pages
+
+  📂 Project Structure
+
+ React-project/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── App.tsx
+│   └── main.tsx
+│
+├── index.html
+├── package.json
+└── vite.config.ts
+
+ ⚙️ Getting Started
+
+ 🔽 Clone Repository
+
+ git clone https://github.com/Laibanoor92/React-project.git
+ 
+
+## 📦 Install Dependencies
+
+ npm install
+ 
+## ▶️ Run Locally
+
+ npm run dev
+ 
+Open in browser:
+
+ http://localhost:5173
+ 
+## 🏗️ Build for Production
+
+ npm run build
+ 
+ 
+# 🚀 Deployment
+
+This project is deployed on **Netlify**.
+
+Build Command:
+
+ npm run build
+
+Publish Directory:
+
+dist
+
+
+Live URL:
+https://jade-panda-0603b9.netlify.app/
+
+ 👩‍💻 Author
+
+Laiba Noor
+ 
+
+ 
