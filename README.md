@@ -1,5 +1,4 @@
- # React Internship Project
-
+ React Internship Project
 Hi 👋
 This Assignment is a React + TypeScript application built using Vite as part of a React Internship assignment.
 The project demonstrates a professional implementation of **PrimeReact DataTable** with server-side pagination and persistent row selection using live API data.
@@ -22,7 +21,6 @@ Main goals of this project:
 * Manage persistent row selection across pages
 * Avoid unnecessary data storage or prefetching
 * Follow clean React architecture using TypeScript
-
 ---
 
 # 🧩 Tech Stack
