@@ -1,11 +1,13 @@
-React Internship Project
+ # React Internship Project
+
+ 
 Hi 👋
-This Assignment is a React + TypeScript application built using Vite as part of a React Internship assignment.
+This Assignment is a React + TypeScript application built using **Vite** as part of a React Internship assignment.
 The project demonstrates a professional implementation of **PrimeReact DataTable** with server-side pagination and persistent row selection using live API data.
 
 ---
 
-# 🚀 Live Demo
+# 🌐 🚀 Live Demo
 
 👉 https://jade-panda-0603b9.netlify.app/
 
@@ -21,6 +23,7 @@ Main goals of this project:
 * Manage persistent row selection across pages
 * Avoid unnecessary data storage or prefetching
 * Follow clean React architecture using TypeScript
+
 ---
 
 # 🧩 Tech Stack
@@ -159,4 +162,5 @@ https://jade-panda-0603b9.netlify.app/
 # 👩‍💻 Author
 
 **Laiba Noor**
-
+🎓 B.Tech Student | Aspiring Software Engineer
+ 
